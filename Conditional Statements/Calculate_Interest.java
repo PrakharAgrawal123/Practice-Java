@@ -23,7 +23,7 @@ public class Calculate_Interest{
         System.out.println("Simple Interest is "+SI);
         break;
         case 2:
-          System.out.println("Enter Principle");
+        System.out.println("Enter Principle");
         P = sc.nextDouble();
         System.out.println("Enter Rate ");
         R = sc.nextDouble();
