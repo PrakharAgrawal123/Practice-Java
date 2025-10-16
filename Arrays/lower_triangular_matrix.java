@@ -15,20 +15,20 @@ public class lower_triangular_matrix {
             }
         }
 
-        boolean isUpper = true;  // assume it is lower triangular
+        boolean isLower = true;  // assume it is lower triangular
 
         // The lower triangular matrix has all the elements above the main diagonal as zero (where i < j)
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (i < j && arr[i][j] != 0) {
-                    isUpper = false;
+                    isLower = false;
                     break;
                 }
             }
         }
 
-        if (isUpper) {
+        if (isLower) {
             System.out.println("The matrix is an lower Triangular Matrix.");
         } else {
             System.out.println("The matrix is NOT an lower Triangular Matrix.");
