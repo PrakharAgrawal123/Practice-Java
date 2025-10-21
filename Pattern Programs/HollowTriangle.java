@@ -19,3 +19,17 @@ public class HollowTriangle {
         }
     }
 }
+
+
+/*
+OUTPUT:
+
+     *
+    * *
+   *   *
+  *     *
+ *       *
+***********
+
+*/
+
