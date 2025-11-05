@@ -14,7 +14,7 @@ public class ButtonExample {
     });
     frame.add(button);
     frame.setSize(300, 300);
-    frame.setLayout(null); // Using no layout managers
+    frame.setLayout(null); 
     frame.setVisible(true);
   }
 }
